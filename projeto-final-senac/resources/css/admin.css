@@ -1,0 +1,217 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Materialize CSS Sticky footer */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#app {
+  flex: 1 0 auto;
+}
+
+/* Fim de estilos para Materialize CSS Sticky footer */
+
+/* Estilos para barra superior  */
+
+#top-navbar nav {
+    border-bottom: 1px solid #ccd9e3;
+    background-color: #f6fbfe;
+    box-shadow: none;
+}
+
+#top-navbar nav a,
+#top-navbar ul a {
+    color: #607d8b;
+}
+
+#top-navbar nav a:hover,
+#top-navbar ul a:hover {
+    color: #455a64;
+    background-color: transparent;
+}
+
+.profile::before {
+    content: "|";
+    opacity: 0.5;
+    margin: 0 15px;
+    border-radius: 1px;
+    width: 1px;
+}
+
+/* Fim de Estilos para barra superior  */
+
+/* Estilos para barra lateral */
+
+.painel-nav{
+    background-color: #e3f2fd;
+    color: #01579b;
+    box-shadow: none;
+}
+
+.painel-nav li div.row {
+    margin: 0;
+}
+
+.painel-nav .painel-nav-header {
+    padding-top:5px;
+}
+
+.painel-nav .painel-nav-header .nav-info {
+    color: #01579b;
+    text-shadow: 0px 1px 0px #B6BACE;
+    text-transform: uppercase;
+}
+
+.painel-nav li:first-child {
+    border-bottom: 1px solid #ccd9e3;
+}
+
+.painel-nav li {
+    border-bottom: 1px solid #dbe4eb;
+}
+
+.painel-nav li a {
+    color: #01579b;
+}
+
+/* Estilos para Submenu */
+
+.painel-nav .collapsible-body .collection a {
+    padding-left: 60px;
+    color: #0277bd;
+    background-color: rgba(227, 242, 253, 0.8);
+}
+
+.painel-nav .collapsible-body .collection a:hover {
+    color: #37474f;
+    background-color: rgba(227, 242, 253, 0.8);
+}
+
+.painel-nav .collapsible-body .collection .collection-item.active {
+    color: #607d8b ;
+}
+
+/* Fim de Estilos para Submenu */
+
+/* Fim de Estilos para barra lateral */
+
+/* Estilos para acessibilidade */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+a[role=button] {
+    cursor: pointer;
+}
+
+/* Fim de estilos para acessibilidade */
+
+/* Estilos para breadcrumbs */
+
+.breadcrumbs-nav {
+    background-color: transparent;
+    height: 56px;
+    line-height: 16px;
+    box-shadow: none;
+}
+
+@media only screen and (max-width : 992px) {
+    .breadcrumbs-nav {
+        line-height: 56px !important;
+    }
+}
+
+.breadcrumb {
+    color: rgb(125, 125, 125);
+    font-size: 1rem;
+}
+
+.breadcrumb[aria-current=page] {
+    color: rgb(55, 55, 55);
+    font-size: 1rem;
+}
+
+.breadcrumb::before {
+    color: inherit;
+}
+
+/* Fim de Estilos para breadcrumbs */
+
+/* Estilos para responsividade */
+
+@media all and (max-width : 375px) {
+    main {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media all and (max-width : 800px) {
+    main {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+
+    .painel-nav {
+        margin-top: 0px !important;
+    }
+}
+
+/* Fim de Estilos para responsividade */
+
+/* Alterações de cores em label e inputs para acessibilidade */
+
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+/* Fim de Alterações de cores em label e inputs para acessibilidade */

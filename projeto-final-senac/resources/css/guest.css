@@ -1,0 +1,151 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700);
+
+/* Materialize CSS Sticky footer */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#app {
+  flex: 1 0 auto;
+}
+
+/* Fim de estilos para Materialize CSS Sticky footer */
+
+/* Botões do materialize com altura ajustável */
+
+.btn {
+  height: auto;
+  min-height: 20px;
+  line-height: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Fim de estilos para Botões do materializecss com altura ajustável */
+
+a[role=button] {
+  cursor: pointer;
+}
+
+/* Estilos de Botões de acessibilidade skip */
+
+.skip1, .skip2, .skip3 {
+  position:absolute;
+  top: -1000px;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: center;
+  overflow: hidden;
+}
+
+a.skip1:active, a.skip2:active, a.skip3:active,
+a.skip1:focus, a.skip2:focus, a.skip3:focus,
+a.skip1:hover, a.skip2:hover, a.skip3:hover {
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 150px;
+  height: auto;
+  overflow: visible;
+  border-radius: 20px 40px 60px;
+  background: #00bcd4 !important;
+  padding: 7px;
+  font-weight:700;
+  color:black;
+}
+
+/* Fim de estilos de Botões de acessibilidade skip */
+
+/* Alterações de cores em label e inputs para acessibilidade */
+
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+/* Fim de Alterações de cores em label e inputs para acessibilidade */
+
+/* Dropdown sem restrição da largura do conteúdo */
+
+ul.select-dropdown,
+ul.dropdown-content {
+  width: auto !important;
+}
+
+ul.select-dropdown li > span,
+ul.dropdown-content li > span {
+  white-space: nowrap !important;
+}
+
+/* Fim de Dropdown sem restrição da largura do conteúdo */
+
+/* Estilos para breadcrumbs */
+
+.breadcrumbs-nav {
+  margin-top: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 56px !important;
+  line-height: 56px !important;
+  box-shadow: none;
+}
+
+.breadcrumb {
+  font-size: 1rem;
+}
+
+.breadcrumb::before {
+  color: inherit;
+}
+
+/* Fim de estilos para breadcrumbs */
+
+.autocomplete-results {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #eeeeee;
+  max-height: 8rem;
+  overflow: auto;
+}
+
+.autocomplete-result {
+  list-style-type: none;
+  text-align: left;
+  margin: .8rem;
+  cursor: pointer;
+}
+
+.autocomplete-results.is-active,
+.autocomplete-result:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Classes para screenreaders */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* Fim de Classes para screenreaders */
