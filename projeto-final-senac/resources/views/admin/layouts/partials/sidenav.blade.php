@@ -2,16 +2,8 @@
     <ul id="slide-out" class="sidenav sidenav-fixed painel-nav collapsible col s12 m4 l3">
         
         <li class="painel-nav-header">
-            <div class="row painel-logo">
-                <div class="col s7">
-                    <img class="responsive-img" alt="Logo UFRJ faz 100 anos" 
-                        src="{{ asset('build/img/logodevtic_fundo_transparente.png') }}">
-                </div>
-                <div class="col s5 titulo-header-admin">
-                    <span class="nav-info first-part-title">
-                        UFRJ
-                    </span>
-                </div>
+            <div class="row painel-logo center">
+                CLUBE ALFAIATE
             </div>
         </li>
 
@@ -41,7 +33,7 @@
             <a href="{{route('admin.index')}}" class="collection-item " style="padding: 0 !important">
                 <div class="collapsible-header on-contrast-force-yellow-text">
                     <i class="material-icons" aria-hidden="true">home</i>
-                    Painel
+                    Meus agendamentos
                 </div>
             </a>
         </li>

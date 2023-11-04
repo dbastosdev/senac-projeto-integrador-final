@@ -18,6 +18,7 @@
 
                                 <ul id="menu_usuario" class="dropdown-content" aria-labelledby="menu_usuario-trigger">
                                     <li><a href="{{ route('logout') }}">Logout</a></li>
+                                    <li><a href="{{ route('account') }}">Conta</a></li>
                                 </ul>
 
                                  <li>

@@ -2,9 +2,7 @@
 	<nav class="blue darken-2" id="menu">
 		<div class="content">
 			<div class="nav-wrapper">
-			    <a  href="{{ route('home') }}" class="brand-logo left">
-					<h4>Clube Alfaiate</h4>
-				</a>
+				<a href="{{ route('home') }}" class="brand-logo" style="margin-left: 10px;">Clube Alfaiate</a>
 			    <a role="button" tabindex="0" data-target="nav-mobile" class="sidenav-trigger right" aria-controls="nav-mobile" aria-label="abrir ou fechar menu">
 			    	<i class="material-icons">menu</i>
 			    </a>
@@ -29,13 +27,6 @@
 					    	</a>
 					    </li>
 			    	@endguest
-				    <li>
-				    	<a id="ajuda" href="https://tic.ufrj.br/contato/" class="waves-effect waves-light white-text" target="_blank">
-				    		Ajuda
-				    		<span class="sr-only">(Abrir em nova aba)</span>
-				    		<i class="material-icons right">open_in_new</i>
-				    	</a>
-				    </li>
 				    <li>
 				    	<a role="button" tabindex="0" class="waves-effect waves-light white-text" id="altocontraste" title="Habilitar alto contraste" accesskey="4" onclick="window.toggleContrast()">
 				    		<span><i class="material-icons">invert_colors</i></span>
