@@ -80,13 +80,4 @@
 	@guest
     	<li><a href="{{ route('login') }}"class="waves-effect waves-light">Acessar</a></li>
 	@endguest
-    <li>
-    	<a href="https://help-infotic.tic.ufrj.br/duvidas-sistema/IntegraSEI" target="_blank">
-    		<span>
-    			Ajuda
-	    		<i class="material-icons" aria-hidden="true">open_in_new</i>
-    		</span>
-    		<span class="sr-only">(abrir em nova página)</span>
-    	</a>
-    </li>
 </ul>

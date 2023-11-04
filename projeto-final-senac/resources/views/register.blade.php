@@ -32,6 +32,14 @@
         </div>
       </div>
       <div class="row">
+        <label>Seleção de perfil</label>
+        <select class="browser-default">
+          <!-- <option value="" disabled selected>Selecione uma opção</option> -->
+          <option value="1">Costureira</option>
+          <option value="2">Consumidor</option>
+        </select>
+      </div>
+      <div class="row">
         <!-- <div class="input-field col s6">
           <div class="gender-male">
             <input class="with-gap" name="gender" type="radio" id="male" required />
