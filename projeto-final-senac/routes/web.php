@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [SiteController::class, 'index'])->name('home');
+Route::get('/login', [SiteController::class, 'loginRender'])->name('login');
 
 /*
 |--------------------------------------------------------------------------
@@ -27,15 +28,15 @@ Route::get('/', [SiteController::class, 'index'])->name('home');
 |
 */
 
-Route::middleware(['authCas'])->group(function () {
+// Route::middleware(['authCas'])->group(function () {
 
-	Route::get('login', [LoginController::class, 'login'])->name('login');
-	Route::get('logout', [LoginController::class, 'logout'])->name('logout');
+// 	Route::get('login', [LoginController::class, 'login'])->name('login');
+// 	Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 
-    Route::name('admin.')->prefix('admin')->group(function(){
-		Route::get('/', [AdminController::class, 'index'])->name('index');
+//     Route::name('admin.')->prefix('admin')->group(function(){
+// 		Route::get('/', [AdminController::class, 'index'])->name('index');
 
-	});
+// 	});
 
-});
+// });
 

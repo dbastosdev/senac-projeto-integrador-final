@@ -3,26 +3,75 @@
 @section('title', 'Página Inicial')
 
 @section('content')
-    <div class="row">
-        <div class="col s12 center">
-            <h2>Bem-vindo ao Sistema!</h2>
-        </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h4 class='text-center'> Os melhores profissionais de moda estão aqui</h4>
     </div>
-    <div class="row">
-        <div class="col s12 m12">
-            <div class="about-content">
-                <div class="row">
-                    <div class="col s12 m4 offset-m4">
-                        <div class="center promo promo-example">
-                            <i class="medium material-icons blue-text" aria-hidden="true">info_outline</i>
-                            <p class="promo-caption">Visão Geral</p>
-                            <p class="light center">
-                                <test></test>
-                            </p>
-                        </div>
-                    </div>
-                </div>        
-            </div>
+  </div>
+  <div class="row">
+    <div class="col s12 cards-container">
+        <!-- card -->
+       <div class="card  darken-1">
+         <div class="card-content black-text">
+           <span class="card_date_day grey-text">23</span>
+           <span class="card_date_month grey-text">Mai</span>
+           <span class="card-title">Ateliê Joana</span>
+           <p>Especialista em alta costura</p>
+           <br>
+           <span class="chip">corte</span>
+           <span class="chip">alta costura</span>
+           <br>
+           <br>
+           <a class=""><i class="material-icons left">room</i>Rua do Rio, Bangu - Rio de Janeiro - RJ</a>
+         </div>
+         <div class="card-action center">
+           <a href="#">Agendar</a>
+         </div>
         </div>
+        <!-- fim card -->
+        <!-- card -->
+        <div class="card  darken-1">
+         <div class="card-content black-text">
+           <span class="card_date_day grey-text">23</span>
+           <span class="card_date_month grey-text">Mai</span>
+           <span class="card-title">Ateliê Joana</span>
+           <p>Especialista em alta costura</p>
+           <br>
+           <span class="chip">corte</span>
+           <span class="chip">alta costura</span>
+           <br>
+           <br>
+           <a class=""><i class="material-icons left">room</i>Rua do Rio, Bangu - Rio de Janeiro - RJ</a>
+         </div>
+         <div class="card-action center">
+           <a href="#">Agendar</a>
+         </div>
+        </div>
+        <!-- fim card -->
+        <!-- card -->
+        <div class="card  darken-1">
+         <div class="card-content black-text">
+           <span class="card_date_day grey-text">23</span>
+           <span class="card_date_month grey-text">Mai</span>
+           <span class="card-title">Ateliê Joana</span>
+           <p>Especialista em alta costura</p>
+           <br>
+           <span class="chip">corte</span>
+           <span class="chip">alta costura</span>
+           <br>
+           <br>
+           <a class=""><i class="material-icons left">room</i>Rua do Rio, Bangu - Rio de Janeiro - RJ</a>
+         </div>
+         <div class="card-action center">
+           <a href="#">Agendar</a>
+         </div>
+        </div>
+        <!-- fim card -->
     </div>
+  </div>
+</div>
+
+        
 @endsection
