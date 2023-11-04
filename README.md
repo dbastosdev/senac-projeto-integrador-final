@@ -1,0 +1,2 @@
+# senac-projeto-integrador-final
+PROJETO INTEGRADOR: ANÁLISE DE SOLUÇÕES INTEGRADAS PARA ORGANIZAÇÕES
