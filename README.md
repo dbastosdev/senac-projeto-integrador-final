@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    🌱 Seu marketplace de coleta de resíduos. Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente. 💚
+    Seu marketplace de de costura. Ajudamos pessoas a encontrarem os melhores alfaiates. 👚👕👖
 </h3>
 
 <p align="center">
