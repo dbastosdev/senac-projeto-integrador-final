@@ -1,7 +1,5 @@
-
-
 <h1 align="center">
-     ♻️ <a href="#" alt="site do ecoleta"> Ecoleta </a>
+     🪡 <a href="#" alt="clube alfaiate"> Clube Alfaiate </a>
 </h1>
 
 <h3 align="center">
