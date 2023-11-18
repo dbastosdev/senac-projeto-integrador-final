@@ -7,25 +7,13 @@
 <div class="row">
     <form class="col s12" id="reg-form">
           <div class="wrapper center">
-            <h4>Editar perfil profissional</h4>
+            <h4>Configurações da Conta</h4>
           </div>
-      </div>
-      <div class="wrapper center">
-        <h5>Nome Completo</h5>
       </div>
       <div class="row">
         <div class="input-field col s12">
           <input id="email" type="email" class="validate" value="Bebeto Soares Almeida" required>
           <label for="email">Nome Completo</label>
-        </div>
-      </div>
-      <div class="wrapper center">
-        <h5>Contato profissional</h5>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="phone" type="text" class="validate" value="(21) 9 9345-2345" required>
-          <label for="email">Telefone</label>
         </div>
       </div>
       <div class="row">
@@ -36,17 +24,8 @@
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="address" type="text" class="validate" value="Rua Nova Esperança, 125 - Centro - RJ"required>
-          <label for="email">Endereço</label>
-        </div>
-      </div>
-      <div class="wrapper center">
-        <h5>Experiência profissional</h5>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="xp" type="text" class="validate" value=" não preenchido"required>
-          <label for="xp">Experiência</label>
+          <input id="password" type="password" class="validate" value="123456"required>
+          <label for="password">Senha</label>
         </div>
       </div>
       <div class="row">

@@ -1,8 +1,10 @@
 <div class="navbar-fixed">
-	<nav class="blue darken-2" id="menu">
+	<nav style="background-color:rgb(0,86,255)" id="menu">
 		<div class="content">
 			<div class="nav-wrapper">
-				<a href="{{ route('home') }}" class="brand-logo" style="margin-left: 10px;">Clube Alfaiate</a>
+				<a  href="{{ route('home') }}" class="brand-logo left">
+			    	<img class="left-align" src="{{ asset('build/img/logo.png') }}" alt="Logo Sistema" width="210" height="60"/>
+				</a>
 			    <a role="button" tabindex="0" data-target="nav-mobile" class="sidenav-trigger right" aria-controls="nav-mobile" aria-label="abrir ou fechar menu">
 			    	<i class="material-icons">menu</i>
 			    </a>

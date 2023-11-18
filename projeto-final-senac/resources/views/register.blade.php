@@ -9,30 +9,26 @@
           <div class="wrapper center">
             <h2>Registre-se</h2>
           </div>
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate" required>
-          <label for="first_name">Nome</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate" required>
-          <label for="last_name">Sobrenome</label>
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="text" class="validate" required>
+          <label for="email">Digite seu nome</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
           <input id="email" type="email" class="validate" required>
-          <label for="email">E-mail</label>
+          <label for="email">Digite seu e-mail</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
           <input id="password" type="password" class="validate" minlength="6" required>
-          <label for="password">Senha</label>
+          <label for="password">Digite uma senha</label>
         </div>
       </div>
       <div class="row">
-        <label>Seleção de perfil</label>
+        <label>Selecione um perfil</label>
         <select class="browser-default">
           <!-- <option value="" disabled selected>Selecione uma opção</option> -->
           <option value="1">Costureira</option>
@@ -52,9 +48,9 @@
         </div> -->
 
         <div class="input-field col s6">
-          <button class="btn btn-large btn-register waves-effect waves-light blue darken" type="submit" name="action">Cadastrar
+          <a href="{{route('thanks')}}" class="btn btn-large btn-register waves-effect waves-light blue darken">Cadastrar
             <i class="material-icons right">done</i>
-          </button>
+          </a>
         </div>
       </div>
     </form>

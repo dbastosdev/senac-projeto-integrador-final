@@ -21,6 +21,7 @@ Route::get('/', [SiteController::class, 'index'])->name('home');
 Route::get('/login', [AuthController::class, 'loginRender'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticate'])->name('auth.authenticate');
 Route::get('/register', [AuthController::class, 'registerRender'])->name('register');
+Route::get('thanks', [AuthController::class, 'thanks'])->name('thanks');
 
 
 /*
@@ -35,7 +36,9 @@ Route::get('/register', [AuthController::class, 'registerRender'])->name('regist
 Route::middleware(['auth'])->group(function () {
 
     Route::get('account', [AuthController::class, 'account'])->name('account');
+    Route::get('account-data', [AuthController::class, 'accountData'])->name('account-data');
     Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+    
 
     Route::name('admin.')->prefix('admin')->group(function(){
 		Route::get('/', [AdminController::class, 'index'])->name('index');

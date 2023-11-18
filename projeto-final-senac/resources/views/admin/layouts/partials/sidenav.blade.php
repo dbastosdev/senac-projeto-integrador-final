@@ -37,24 +37,13 @@
                 </div>
             </a>
         </li>
-
-        @can('view', App\Models\Usuario::class)
-            <li class="{{ \Request::is('admin/usuarios*') ? 'active' : '' }}">
-                <div class="collapsible-header on-contrast-force-yellow-text" aria-expanded="{{ \Request::is('admin/usuarios*') ? 'true' : 'false' }}" tabindex="0" role="button">
-                    <i class="material-icons" aria-hidden="true">people</i>
-                    Usuários
+        <li class="{{ \Request::is('admin') ? 'active' : '' }}">
+            <a href="{{route('account-data')}}" class="collection-item " style="padding: 0 !important">
+                <div class="collapsible-header on-contrast-force-yellow-text">
+                    <i class="material-icons" aria-hidden="true">home</i>
+                    Dados da conta
                 </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        <a href="{{route('admin.usuarios.index')}}"
-                           class="collection-item on-contrast-force-black @if (\Request::is('admin/usuarios')) active @endif"
-                        >Listar</a>
-                        <a href="{{route('admin.usuarios.create')}}"
-                           class="collection-item on-contrast-force-black @if (\Request::is('admin/usuarios/create')) active @endif"
-                        >Novo</a>
-                    </div>
-                </div>
-            </li>
-        @endcan
+            </a>
+        </li>
     </ul>
 </div>

@@ -23,6 +23,16 @@ class AuthController extends Controller
         return view('account');
     }
 
+    public function accountData(): View
+    {
+        return view('account-data');
+    }
+
+    public function thanks()
+    {
+        return redirect()->route('home')->with('status', 'Obrigado por se cadastrar.');
+    }
+
     public function authenticate(Request $request)
     {
         // print_r($request->input('email'));
